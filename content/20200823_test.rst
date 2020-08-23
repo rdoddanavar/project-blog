@@ -1,0 +1,11 @@
+My Title
+##############
+
+:date: 2020-08-23
+:modified: 2020-08-23
+:status: draft
+:tags: thats, awesome
+:category: yeah
+:slug: my-super-post
+:authors: Roshan Doddanavar
+:summary: Short version for index and feeds

@@ -14,3 +14,9 @@ Execute `pelican-quickstart`
  - Time zone: `America/Phoenix`
 
 ## Usage
+
+ - Generate html
+   - `pelican content`
+ - Live webserver 
+   - `pelican --listen`
+   - http://localhost:8000/ 
