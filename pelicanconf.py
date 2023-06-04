@@ -1,6 +1,6 @@
 AUTHOR = 'Roshan Doddanavar'
-SITENAME = 'Project Blog'
-SITEURL = ''
+SITENAME = 'Roshan\'s Personal Blog'
+SITEURL = 'http://localhost:8000/'
 
 PATH = 'content'
 
@@ -17,15 +17,41 @@ AUTHOR_FEED_RSS = None
 
 # Blogroll
 LINKS = (('Pelican', 'https://getpelican.com/'),
-         ('Python.org', 'https://www.python.org/'),
-         ('Jinja2', 'https://palletsprojects.com/p/jinja/'),
          ('You can modify those links in your config file', '#'),)
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = (('linkedin', 'https://www.linkedin.com/in/roshan-doddanavar'),
+          ('github', 'https://github.com/rdoddanavar'),)
 
 DEFAULT_PAGINATION = False
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
+
+#------------------------------------------------------------------------------#
+
+# USER SETTINGS
+
+USE_FOLDER_AS_CATEGORY = True
+
+#------------------------------------------------------------------------------#
+
+# THEME SETTINGS
+
+THEME = 'MinimalXY'
+
+# Author
+AUTHOR_INTRO = 'Hello, I\'m Roshan - a professional Aerospace Engineer, and an avid hobbyist & tinkerer.'
+
+# Theme customizations
+
+
+# UNUSED
+
+#THEME = 'pelican-bootstrap3'
+#THEME = 'taman'
+
+#THEME = 'uikit'
+#DISPLAY_LINKS_ON_SIDEBAR_LIMIT = 3
+#DISPLAY_TAGS_ON_SIDEBAR_LIMIT = 3
+#LICENSE = "None"
