@@ -42,6 +42,7 @@ THEME = 'MinimalXY'
 
 # Author
 AUTHOR_INTRO = 'Hello, I\'m Roshan - a professional Aerospace Engineer, and an avid hobbyist & tinkerer.'
+AUTHOR_AVATAR = 'content/images/headshot.jpg'
 
 # Theme customizations
 
