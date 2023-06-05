@@ -26,13 +26,15 @@ SOCIAL = (('linkedin', 'https://www.linkedin.com/in/roshan-doddanavar'),
 DEFAULT_PAGINATION = False
 
 # Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
+RELATIVE_URLS = True
 
 #------------------------------------------------------------------------------#
 
 # USER SETTINGS
 
 USE_FOLDER_AS_CATEGORY = True
+
+STATIC_PATHS = ['images']
 
 #------------------------------------------------------------------------------#
 
@@ -42,7 +44,7 @@ THEME = 'MinimalXY'
 
 # Author
 AUTHOR_INTRO = 'Hello, I\'m Roshan - a professional Aerospace Engineer, and an avid hobbyist & tinkerer.'
-AUTHOR_AVATAR = 'content/images/headshot.jpg'
+AUTHOR_AVATAR = 'images/headshot.jpg' # Must be relative to content/ directory
 
 # Theme customizations
 
