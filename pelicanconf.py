@@ -40,7 +40,7 @@ STATIC_PATHS = ['images']
 
 # THEME SETTINGS
 
-THEME = 'MinimalXY'
+THEME = '/home/roshan/GitHub/minimal-xy'
 
 # Author
 AUTHOR_INTRO = 'Hello, I\'m Roshan - a professional Aerospace Engineer, and an avid hobbyist & tinkerer.'
